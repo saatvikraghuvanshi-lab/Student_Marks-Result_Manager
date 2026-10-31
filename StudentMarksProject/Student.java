@@ -64,5 +64,8 @@ public class Student {
             System.out.println("Student has failed");
         }
     }
+    public int getMark(int index) {
+        return marks[index];
+    }
 }
 
